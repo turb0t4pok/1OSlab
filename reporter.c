@@ -30,6 +30,9 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    fprintf(txtFile, "Отчёт по файлу \"%s\"\n", binaryFile);
+    printf("Report based on file \"%s\"\n", binaryFile);
+
     fprintf(txtFile, "ID  Name      Hours  Salary\n");
     printf("ID  Name      Hours  Salary\n");
 
@@ -38,7 +41,6 @@ int main(int argc, char* argv[]) {
         double salary = emp.hours * hourlyRate;
 
         fprintf(txtFile, "%-3d %-10s %-6.2f %.2f\n", emp.id, emp.name, emp.hours, salary);
-
         printf("%-3d %-10s %-6.2f %.2f\n", emp.id, emp.name, emp.hours, salary);
     }
 

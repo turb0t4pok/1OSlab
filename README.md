@@ -1,3 +1,18 @@
+#CMake
+1.  ```
+    mkdir build
+    cd build
+    ```
+2.  ```
+    cmake ..
+    ```
+3.  ```
+    cmake --build .
+    ```
+4.  ```
+    cd Debug
+    .\Main.exe
+    ```
 # Компилировать программу:
 ```
 gcc creator.c -o creator.exe
