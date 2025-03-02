@@ -1,4 +1,4 @@
-#CMake
+# CMake
 1.  ```
     mkdir build
     cd build
